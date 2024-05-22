@@ -1,2 +1,1 @@
-"# stack-opperations" 
-stack (LIFO data structure) 
+stack: LIFO data structure 
