@@ -3,19 +3,25 @@ import java.util.Stack;
 public class Main {
     public static void main(String[] args) {
 
+    // stack = LIFO data stucture
+    // stores objects into a dort of "vertical tower"
+
     // creating a Stack that can store String
     Stack<String> stack = new Stack<String>(); // add a construtor()
 
-    // push : used to add
+    // push() to add to the top
     stack.push("Minecraft");
     stack.push("Valorant");
     stack.push("League of Legends");
+    stack.push("Counter-Strike 2");
 
-    // peek method shows me the LIFO item 
-    // serve just to take a look, don't remove
-    System.out.println(stack.peek());
+    // pop() to remove from the top
+    stack.pop();
 
-    // print stack 
+    // for loop
+    for (int i = 0; i < 102902; i++){
+        stack.push("Fallout76");
+    }
     System.out.println(stack);
 
     }
