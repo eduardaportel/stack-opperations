@@ -11,16 +11,12 @@ public class Main {
     stack.push("Valorant");
     stack.push("League of Legends");
 
-    // checking if the stack is empty
-    // System.out.println(stack.empty());
-
-    // assigning LOL to myFavGame
-    String myFavGame = stack.pop();
+    // peek method shows me the LIFO item 
+    // serve just to take a look, don't remove
+    System.out.println(stack.peek());
 
     // print stack 
     System.out.println(stack);
-    // print myFavGame
-    System.out.println("My favorite game is: " + myFavGame);
 
     }
 }
