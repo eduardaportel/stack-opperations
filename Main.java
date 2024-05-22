@@ -14,14 +14,12 @@ public class Main {
     stack.push("Valorant");
     stack.push("League of Legends");
     stack.push("Counter-Strike 2");
+        
+    // search for an object within the stack
+    // the first item has position 1
+    System.out.println(stack.search("Counter-Strike 2"));
 
-    // pop() to remove from the top
-    stack.pop();
-
-    // put Fallout76 102902 times in the stack
-    for (int i = 0; i < 102902; i++){
-        stack.push("Fallout76");
-    }
+    System.out.println(stack.search("Valorant"));
 
     // print stack
     System.out.println(stack);
