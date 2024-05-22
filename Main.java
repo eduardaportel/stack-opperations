@@ -18,10 +18,12 @@ public class Main {
     // pop() to remove from the top
     stack.pop();
 
-    // for loop
+    // put Fallout76 102902 times in the stack
     for (int i = 0; i < 102902; i++){
         stack.push("Fallout76");
     }
+
+    // print stack
     System.out.println(stack);
 
     }
